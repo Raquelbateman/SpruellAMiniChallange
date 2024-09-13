@@ -1,4 +1,6 @@
 import PostsList from "./components/PostsList";
+import PostsListWQuery from "./components/PostsListWQuery";
+import PostListWQueryHook from "./components/PostsListWQueryHook";
 
 
 const App = () => {
@@ -7,8 +9,10 @@ const App = () => {
     
     
     
-    <h1>Posts List</h1>
-    <PostsList/>
+    <h1>Post Lists</h1>
+    {/* <PostsList/> */}
+    {/* <PostsListWQuery/> */}
+    <PostListWQueryHook/>
    
     
     
